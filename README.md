@@ -44,13 +44,13 @@ O sistema permite que o usuário digite prompts em português. O texto é automa
 Clone o projeto:
 
 ```bash
-git clone https://github.com/seuusuario/seurepositorio.git
+git clone https://github.com/rafaelraah/imageGeneratorAI.git
 ```
 
 Entre na pasta:
 
 ```bash
-cd seurepositorio
+cd imageGeneratorAI
 ```
 
 Crie o ambiente virtual:
