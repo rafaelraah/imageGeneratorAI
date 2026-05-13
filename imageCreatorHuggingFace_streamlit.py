@@ -58,11 +58,11 @@ def gerar_imagem(prompt: str, output_path: str = "imagem.png"):
 
 # Frontend
 st.set_page_config(
-    page_title="Gerador de Imagens",
+    page_title="Rafael Vision - Gerador de Imagens",
     page_icon="🎨"
 )
 
-st.title("🎨 Gerador de Imagens IA")
+st.title("🎨 Rafael Vision - Gerador de Imagens IA")
 
 prompt = st.text_input(
     "Digite o prompt da imagem"
