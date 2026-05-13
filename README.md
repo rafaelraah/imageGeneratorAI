@@ -19,9 +19,13 @@ O sistema permite que o usuário digite prompts em português. O texto é automa
 # 🧠 Funcionalidades
 
 ✅ Tradução automática de prompts PT-BR → EN
+
 ✅ Geração de imagens com IA
+
 ✅ Interface web simples com Streamlit
+
 ✅ Integração com APIs modernas de IA
+
 ✅ Exibição do prompt traduzido antes da geração da imagem
 
 ---
