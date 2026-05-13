@@ -47,7 +47,7 @@ def gerar_imagem(prompt: str, output_path: str = "imagem.png"):
     )
 
     return image; 
-
+ 
    # image.save(output_path)
    # print(f"Imagem salva em {output_path}")
 
