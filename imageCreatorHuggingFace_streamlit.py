@@ -46,7 +46,7 @@ def gerar_imagem(prompt: str, output_path: str = "imagem.png"):
         model="black-forest-labs/FLUX.1-schnell"
     )
 
-    return image;
+    return image; 
 
    # image.save(output_path)
    # print(f"Imagem salva em {output_path}")
