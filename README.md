@@ -11,6 +11,7 @@ O sistema permite que o usuário digite prompts em português. O texto é automa
 * Python
 * Streamlit
 * Groq API
+* openai/gpt-oss-120b
 * Hugging Face Inference API
 * FLUX.1-schnell
 
@@ -100,6 +101,14 @@ streamlit run app.py
 
 ---
 
+# 🖼️ Modelo utilizado para tradução do prompt
+
+Modelo utilizado:
+
+* openai/gpt-oss-120b
+
+---
+
 # 🖼️ Modelo de geração de imagens
 
 Modelo utilizado:
@@ -117,6 +126,7 @@ Este projeto foi desenvolvido com foco em aprendizado prático de:
 * Python
 * Streamlit
 * Integração entre modelos generativos
+* Geração de imagens
 
 ---
 
