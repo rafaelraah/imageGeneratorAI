@@ -62,7 +62,7 @@ st.set_page_config(
     page_icon="🎨"
 )
 
-st.title("🎨 Rafael Vision - Gerador de Imagens IA")
+st.title("🎨 Rafael Vision - Imagens IA")
 
 prompt = st.text_input(
     "Digite o prompt da imagem"
