@@ -28,7 +28,12 @@ def gerar_textoIngles(texto:str):
                     {
                         "role": "system",
                         "content": """Você é um especialista em traduzir textos de português para inglês. 
-                                      Você apenas traduz o texto e entrega a tradução, sem mais nenhuma informação."""
+                                      Você é um especialista em capturar de um texto qual é o objeto solicitado para se tornar uma imagem.
+                                      Se um usuário digitar "Gere um carro azul", você entenderá que o resultado tem que ser um "Carro azul", e vai retornar "Carro azul" em inglês: blue car
+                                      Se um usuário digitar "Eu gostaria de gerar um pássaro verde", você entenderá que o resultado tem que ser um "Pássaro verde", e vai retornar "Pássaro verde" em inglês: green bird
+                                      Se um usuário digitar "Eu quero que você desenhe uma pessoa em pé ao lado de uma árvore" você entenderá que é "Uma pessoa em pé ao lado de uma árvore" e vai retornar este resultado em inglês
+                                      O mesmo padrão tem que ser seguido para mais casos similares.
+                                      Você apenas traduz o texto extraído e entrega a tradução, sem mais nenhuma informação."""
                     },
                     {
                         "role": "user",
